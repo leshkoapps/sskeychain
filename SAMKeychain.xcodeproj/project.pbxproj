@@ -31,7 +31,7 @@
 		21632DD31C9282BD00C40D7D /* KeychainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21632DD21C9282BD00C40D7D /* KeychainTests.swift */; };
 		21632DD41C9282BD00C40D7D /* KeychainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21632DD21C9282BD00C40D7D /* KeychainTests.swift */; };
 		21632DD51C9282BD00C40D7D /* KeychainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21632DD21C9282BD00C40D7D /* KeychainTests.swift */; };
-		C598E1962086415500B79528 /* SAMKeychainAccessControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C598E1942086415500B79528 /* SAMKeychainAccessControl.h */; };
+		C598E1962086415500B79528 /* SAMKeychainAccessControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C598E1942086415500B79528 /* SAMKeychainAccessControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C598E1972086415500B79528 /* SAMKeychainAccessControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C598E1942086415500B79528 /* SAMKeychainAccessControl.h */; };
 		C598E1982086415500B79528 /* SAMKeychainAccessControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C598E1942086415500B79528 /* SAMKeychainAccessControl.h */; };
 		C598E1992086415500B79528 /* SAMKeychainAccessControl.h in Headers */ = {isa = PBXBuildFile; fileRef = C598E1942086415500B79528 /* SAMKeychainAccessControl.h */; };
@@ -268,8 +268,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C598E1962086415500B79528 /* SAMKeychainAccessControl.h in Headers */,
 				21632D821C92599100C40D7D /* SAMKeychain.h in Headers */,
+				C598E1962086415500B79528 /* SAMKeychainAccessControl.h in Headers */,
 				21632D841C92599100C40D7D /* SAMKeychainQuery.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
